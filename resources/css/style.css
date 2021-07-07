@@ -9,6 +9,9 @@ header {
     align-self: flex-start;
     object-fit: contain;
 }
+
+/* NAVIGATION */
+
 .header--nav {
     margin: 0;
     padding: 0;
@@ -19,7 +22,21 @@ header {
 li {
     float: right;
     border-right: 16px solid white;
+    
 }
+  .li--campus {
+    list-style-image: url("/resources/images/ic-on-campus.svg");
+  }
+  .li--online {
+    list-style-image: url("/resources/images/ic-online.svg");
+  }
+  .li--sign {
+    list-style-image: url("/resources/images/ic-login.svg");
+  }
+  .li--companies {
+    list-style-type: none;
+  }
+
 
 /*MAIN BODY & SIGN UP*/
 
