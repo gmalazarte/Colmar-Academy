@@ -1,22 +1,39 @@
 header {
-    max-height: 64px;
+    height: 64px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
 }
-
-.body--mainbanner{
-   max-width: 60%; 
+.header--logo {
+    align-self: flex-start;
+    object-fit: contain;
+}
+.header--nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    width: 100%;
+   }
+li {
+    float: right;
+    border-right: 16px solid white;
 }
 
 /*MAIN BODY & SIGN UP*/
 
 .container1 {
-  background-color:gray;
+  background-color:rgb(212, 212, 212);
   display: flex;
 }
 .container1--image1 {
-    max-width:60%;
+    max-width: 60%;
     object-fit: contain;
     align-self: flex-start;
+    margin: 32px 24px;
 }
 .container1--text {
     flex: 1 1 auto;
+
 }
