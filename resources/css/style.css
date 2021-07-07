@@ -5,3 +5,18 @@ header {
 .body--mainbanner{
    max-width: 60%; 
 }
+
+/*MAIN BODY & SIGN UP*/
+
+.container1 {
+  background-color:gray;
+  display: flex;
+}
+.container1--image1 {
+    max-width:60%;
+    object-fit: contain;
+    align-self: flex-start;
+}
+.container1--text {
+    flex: 1 1 auto;
+}
