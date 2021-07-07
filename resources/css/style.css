@@ -57,6 +57,7 @@ li {
 /*Section 2*/
 .container2 {
     display: flex;
+    max-width: 60%;
   }
   .container2--image1 {
       max-width: 60%;
@@ -66,5 +67,11 @@ li {
   }
   .container2--text {
     flex: 1 1 auto;
+    text-align: justify;
+    width: 60%;
 
 }
+.container3 {
+    max-width: 40%;
+    align-content:flex-start;
+} 
