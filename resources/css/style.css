@@ -83,6 +83,10 @@ li {
   flex: 1;
   max-width: 40%;
  }
+ .orientation img, .campus img, .lecture img{
+  width: 35%;
+  flex: 1;
+ }
 /*Section 3*/
 .container3 {
   background-color:hsl(0, 0%, 83%);
