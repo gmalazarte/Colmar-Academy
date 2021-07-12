@@ -41,7 +41,7 @@ li {
 /*Section 1*/
 
 .container1 {
-  background-color:rgb(212, 212, 212);
+  background-color:hsl(0, 0%, 83%);
   display: flex;
 }
 .container1--image1 {
@@ -56,10 +56,13 @@ li {
 }
 /*Section 2*/
 .container2 {
-    display: inline-block;
+    display: flex;
     width: 100%;
     flex-direction: column;
-}
+ }
+ .container2--section1 {
+   flex: 1;
+ }
   .container2--image1 {
       max-width: 60%;
       object-fit: contain;
@@ -69,10 +72,16 @@ li {
   .container2--text {
      float: none;
      max-width: 60%;
+ }
+
+ .container2--section2 {
+  flex: 1;
+
+ }
+/*Section 3*/
+.container4 {
+  background-color:hsl(0, 0%, 83%);
+  display: flex;
 }
 
-.container3 {
-    max-width: 40%;
-    flex: 1 1 auto;
-    display: inline-block;
-} 
+ 
