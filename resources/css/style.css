@@ -56,9 +56,10 @@ li {
 }
 /*Section 2*/
 .container2 {
-    display: flex;
-    max-width: 60%;
-  }
+    display: inline-block;
+    width: 100%;
+    flex-direction: column;
+}
   .container2--image1 {
       max-width: 60%;
       object-fit: contain;
@@ -66,12 +67,12 @@ li {
       margin: 32px 24px;
   }
   .container2--text {
-    flex: 1 1 auto;
-    text-align: justify;
-    width: 60%;
-
+     float: none;
+     max-width: 60%;
 }
+
 .container3 {
     max-width: 40%;
-    align-content:flex-start;
+    flex: 1 1 auto;
+    display: inline-block;
 } 
