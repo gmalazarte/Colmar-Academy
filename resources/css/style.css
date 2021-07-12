@@ -90,11 +90,19 @@ li {
   overflow: auto;
   
 }
+.container3--heading {
+  background-color:hsl(0, 0%, 83%);
+  padding: 32px 72px;
+  margin: 0;
+  text-align: center;
+}
   .software, .computerart, .design, .data, .business, .marketing {
     border-right:32px solid hsl(0, 0%, 83%);
+    border-left:32px solid hsl(0, 0%, 83%);
     margin: 32px 72px;
     background-color: white;
     margin: 0 auto;
+    display: block;
   }
 
  
