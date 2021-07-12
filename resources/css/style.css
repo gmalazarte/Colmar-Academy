@@ -57,31 +57,40 @@ li {
 /*Section 2*/
 .container2 {
     display: flex;
-    width: 100%;
-    flex-direction: column;
+    
  }
- .container2--section1 {
+.container2--section1 {
    flex: 1;
+   width: 100%;
  }
   .container2--image1 {
-      max-width: 60%;
+     max-width: 100%;
       object-fit: contain;
       align-self: flex-start;
       margin: 32px 24px;
+      
   }
   .container2--text {
      float: none;
-     max-width: 60%;
+     margin: 32px 24px;
  }
 
- .container2--section2 {
+.container2--section2 {
   flex: 1;
-
+  max-width: 40%;
  }
 /*Section 3*/
-.container4 {
+.container3 {
   background-color:hsl(0, 0%, 83%);
   display: flex;
+  overflow: auto;
+  
 }
+  .software, .computerart, .design, .data, .business, .marketing {
+    border-right:32px solid hsl(0, 0%, 83%);
+    margin: 32px 72px;
+    background-color: white;
+    margin: 0 auto;
+  }
 
  
